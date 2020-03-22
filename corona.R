@@ -69,7 +69,7 @@ param_string <- paste0('Date: ', as.Date(today),
                        ', cr=', round(obs_curerate,4),
                        ', dr=', obs_mortality_rate,
                        ',\n icp=', obs_intensecare,
-                       ', rm= ', as.Date(today))
+                       ', rm= ', as.Date(release_measures))
 
 filename <- paste0('./plots/',
                    as.character(today, format='%Y%m%d'),
