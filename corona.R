@@ -1,3 +1,18 @@
+# Modelling the Corona Epideic using a SIRD model
+#
+# author: Florian Nehonsky (florian@nehonsky.net)
+# last change 2020-03-23
+# published under GPLv3
+#
+# Models:
+# see https://de.wikipedia.org/wiki/SIR-Modell
+# see http://www.mathe.tu-freiberg.de/~wegert/Lehre/Seminar3/moehler.pdf
+#
+# Data:
+# https://www.worldometers.info/coronavirus/coronavirus-cases/#recovered
+
+
+
 library(tidyverse)
 library(ggplot2)
 library(scales)
@@ -6,10 +21,6 @@ library(deSolve)
 
 setwd('C:/Users/Florian/Documents/corona')
 
-# using a SIRD model
-# see https://de.wikipedia.org/wiki/SIR-Modell
-# see http://www.mathe.tu-freiberg.de/~wegert/Lehre/Seminar3/moehler.pdf
-# https://www.worldometers.info/coronavirus/coronavirus-cases/#recovered
 
 calc_time <- 2 # calculation time frame in years, [0, calc_time]
 obs_time <- 1 # observation time frame in years for plots, [0, obs_time]
