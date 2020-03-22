@@ -1,0 +1,34 @@
+SIRD Model of Corona Epidemic
+-----------------------------
+
+Data:
+-----
+date                          2020-03-20
+detected cases                2 400
+rate of detection             14%
+growth rate                   7%
+observed mortality rate       1.44%
+observed hospitalisaton rate  20%
+observed intense care rate    4%
+observed cure rate            8.0639%
+intense care beds             2 500
+
+ODE Parameters:
+---------------
+Population    8 800 000
+a             7.95671546785487e-09
+b             0.080639245480744
+c             0.00116120513492271
+S0            8 782 857.14
+I0            17 142.86
+
+Summary:
+--------
+Date of peak:                        2020-03-20
+# of people which will be infected:  113 984.5 
+# of people which will recover:      112 366.4
+# of people which will die:          1 618.077
+mortality rate:                      1.44%
+maximum concurrent infected:         17 142.86
+    thereof needing hospitalization: 3 429
+    thereof needing intense care:    686
