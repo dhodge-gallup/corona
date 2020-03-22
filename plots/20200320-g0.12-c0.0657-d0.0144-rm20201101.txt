@@ -7,7 +7,7 @@ date                          2020-03-20
 detected cases                2 400
 rate of detection             14%
 growth rate                   12%
-growth rate (no measures)     30%
+growth rate (no measures)     35%
 observed mortality rate       1.44%
 observed hospitalisaton rate  20%
 observed intense care rate    2%
@@ -27,9 +27,9 @@ I0            17 142.86
 Summary:
 --------
 Date of peak:                        2020-07-08
-# of people which will be infected:  7 372 212 
-# of people which will recover:      7 267 559
-# of people which will die:          104 652.9
+# of people which will be infected:  7 758 844 
+# of people which will recover:      7 648 703
+# of people which will die:          110 141.3
 mortality rate:                      1.44%
 maximum concurrent infected:         1 062 645
     thereof needing hospitalization: 212 529
